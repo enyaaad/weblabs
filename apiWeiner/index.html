@@ -5,7 +5,8 @@
     <title>Title</title>
     <script type="text/javascript" src="js/script.js"></script>
     <base href="/">
-    <link rel="stylesheet" href="styles/styles.sass" >
+    <link rel="stylesheet" href="styles/null.css" >
+    <link rel="stylesheet" href="styles/styles.css" >
 </head>
 <body>
 <div class="card">
@@ -13,18 +14,17 @@
         <label>
             <input type="text" id="search-bar" placeholder="Search">
         </label>
-        <button onclick="fetchWeather()">asudasf</button>
-    </div>
-
-    <div class ="jokeCard">
+        <button onclick="fetchWeather()" class="button-4">search</button>
     </div>
 
     <div class="joke loading" id="joke">
         <h2 class="categoryName">Category: </h2>
         <h2 class="jokeText">Joke: </h2>
     </div>
+    <div>
+    </div>
 
-    <h5>BlackList:</h5>
+    <h2>BlackList:</h2>
     <div class="filter">
             <label><input type="checkbox" class="filtercheckbox" id="nsfwCB" value="nsfw">nsfw</label>
             <label><input type="checkbox" class="filtercheckbox" id="religCB" value="religious">religious</label>
@@ -34,7 +34,7 @@
             <label><input type="checkbox" class="filtercheckbox" id="explicitCB" value="explicit">explicit</label>
     </div>
 
-    <h5>Genres:</h5>
+    <h2>Genres:</h2>
     <div class="genre">
             <label> <input type="checkbox" class="genrecheckbox" id="programCB" value="Programming">programming</label>
             <label> <input type="checkbox" class="genrecheckbox" id="miscCB" value="Miscellaneous">misc</label>
