@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="styles/null.css" >
+    <link rel="stylesheet" href="styles/styles.css" >
+</head>
+<body>
+<div class="card">
+    <div class="search" id="search">
+        <label>
+            <input type="text" id="search-bar" placeholder="Search">
+        </label>
+        <button onclick="fetchWeather()" class="button-4">search</button>
+    </div>
+
+    <div class="joke loading" id="joke">
+        <h2 class="categoryName">Category: </h2>
+        <h2 class="jokeText">Joke: </h2>
+    </div>
+    <div>
+    </div>
+
+    <h2>BlackList:</h2>
+    <div class="filter">
+            <label><input type="checkbox" class="filtercheckbox" id="nsfwCB" value="nsfw">nsfw</label>
+            <label><input type="checkbox" class="filtercheckbox" id="religCB" value="religious">religious</label>
+            <label><input type="checkbox" class="filtercheckbox" id="politCB" value="political">political</label>
+            <label><input type="checkbox" class="filtercheckbox" id="racistCB" value="racist">racist</label>
+            <label><input type="checkbox" class="filtercheckbox" id="sexistCB" value="sexist">sexist</label>
+            <label><input type="checkbox" class="filtercheckbox" id="explicitCB" value="explicit">explicit</label>
+    </div>
+
+    <h2>Genres:</h2>
+    <div class="genre">
+            <label> <input type="checkbox" class="genrecheckbox" id="programCB" value="Programming">programming</label>
+            <label> <input type="checkbox" class="genrecheckbox" id="miscCB" value="Miscellaneous">misc</label>
+            <label><input type="checkbox" class="genrecheckbox" id="darkCB" value="Dark">dark</label>
+            <label><input type="checkbox" class="genrecheckbox" id="punCB" value="Pun">pun</label>
+            <label><input type="checkbox" class="genrecheckbox" id="spookyCB" value="Spooky">spooky</label>
+            <label><input type="checkbox" class="genrecheckbox" id="christmasCB" value="Christmas">christmas</label>
+    </div>
+</div>
+</body>
+</html>
