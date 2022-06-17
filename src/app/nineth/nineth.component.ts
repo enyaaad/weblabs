@@ -10,6 +10,8 @@ export class NinethComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
 
 }
