@@ -1,0 +1,5 @@
+<button type="button" [ngClass]="{
+  timer_button:isRed,
+  timer_button_green:!isRed
+  }" (click)="clickEvent()">{{color}}</button>
+

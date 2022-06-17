@@ -1,0 +1,19 @@
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src:url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+}
+.pretty{
+  font-family: 'Open Sans', sans-serif;
+  height: 75px;
+  width: 350px;
+  border-radius: 54px;
+  font-size: 25px;
+  background: #f26522;
+  border-style: none;
+  color:white;
+}
+.pretty:active{
+  background: #24e81d;
+}

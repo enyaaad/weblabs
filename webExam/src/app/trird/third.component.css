@@ -1,0 +1,23 @@
+.timer_button{
+  font-family: 'Open Sans', sans-serif;
+  height: 75px;
+  width: 350px;
+  border-radius: 30px;
+  font-size: 25px;
+  background: #f60517;
+  border-style: none;
+  color:white;
+}
+.timer_button_green{
+  font-family: 'Open Sans', sans-serif;
+  height: 75px;
+  width: 350px;
+  border-radius: 30px;
+  font-size: 25px;
+  background: #65e80d;
+  border-style: none;
+  color:white;
+}
+.timer_button:active{
+  background: #c75323;
+}
