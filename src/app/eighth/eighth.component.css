@@ -1,0 +1,21 @@
+.bell-nof{
+  height: 250px;
+  width: 250px;
+}
+.circle{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: #ffffff;
+  border-style: solid;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  left: 150px;
+  top:70px;
+  background: red;
+}
+.notif{
+  display: inline;
+}

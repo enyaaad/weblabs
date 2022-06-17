@@ -1,0 +1,8 @@
+<button (click)="increment()">+</button>
+<div [ngClass]="{
+  TextColorNotEven:isEven,
+  TextColorEven:!isEven
+  }">
+  count: {{this.tempo}}
+</div>
+<button (click)="decrement()">-</button>
